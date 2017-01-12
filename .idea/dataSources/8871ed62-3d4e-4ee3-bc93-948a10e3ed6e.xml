@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="link">
+  <database-model serializer="dbm" rdbms="SQLITE" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="3" parent="2" name="LINK"/>
+    <table id="4" parent="2" name="sqlite_sequence"/>
+    <column id="5" parent="3" name="ID">
+      <DataType>INTEGER(0,-1)|4</DataType>
+    </column>
+    <column id="6" parent="3" name="LINK">
+      <Position>1</Position>
+      <DataType>VARCHAR(255)(0,-1)|12</DataType>
+    </column>
+    <key id="7" parent="3">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="8" parent="4" name="name">
+      <DataType>(0,-1)|12</DataType>
+    </column>
+    <column id="9" parent="4" name="seq">
+      <Position>1</Position>
+      <DataType>(0,-1)|12</DataType>
+    </column>
+  </database-model>
+</dataSource>
